@@ -9,7 +9,7 @@ public class MenuManager : MonoBehaviour
     [SerializeField] GameObject optionsMenu;
     [SerializeField] GameObject buttonMenu;
     public Animator animatorTitle;
-    public Animator animatorButtons;
+    //public Animator animatorButtons;
 
     private void Awake()
     {
@@ -24,7 +24,7 @@ public class MenuManager : MonoBehaviour
         {
             animatorTitle.SetBool("PressStart", true);
             buttonMenu.SetActive(true);
-            animatorButtons.SetBool("PressStartB", true);
+            //animatorButtons.SetBool("PressStartB", true);
         }
     }
 
